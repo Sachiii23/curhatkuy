@@ -1,0 +1,14 @@
+$env:GEMNI_API_KEY = "PASTE_KEY_KAMU"  # legacy: direct env set (PowerShell)
+# Recommended: create a .env file in the chatbot/ directory (see .env.example)
+# then install python-dotenv so backend will load it automatically:
+python -m pip install python-dotenv
+
+# Start backend (uvicorn)
+uvicorn backend:app --port 8000 --reload
+
+# Serve frontend (from chatbot folder) on port 5500
+python -m http.server 5500
+http://127.0.0.1:5500/index.html
+
+# Optional: install sentence-transformers if you use embedding features
+pip install sentence-transformers

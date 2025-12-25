@@ -1,0 +1,64 @@
+{
+  "jam": [
+    "jam operasional",
+    "jam buka",
+    "jam tutup",
+    "buka jam",
+    "tutup jam",
+    "operasional"
+  ],
+  "lokasi": [
+    "alamat",
+    "lokasi",
+    "dimana",
+    "di mana",
+    "maps",
+    "google maps",
+    "alamat klinik",
+    "lokasi klinik"
+  ],
+  "layanan": [
+    "layanan apa",
+    "jenis layanan",
+    "tipe konseling",
+    "macam layanan",
+    "psikotes"
+  ],
+  "tarif": [
+    "tarif",
+    "harga",
+    "biaya",
+    "bayar berapa",
+    "biaya konsultasi",
+    "harga konseling"
+  ],
+  "booking": [
+    "booking",
+    "buat janji",
+    "reservasi",
+    "jadwal konsultasi",
+    "daftar konseling",
+    "cara booking"
+  ],
+  "privasi": [
+    "privasi",
+    "kerahasiaan",
+    "rahasia",
+    "confidential",
+    "aman tidak",
+    "terjamin",
+    "data pribadi",
+    "keamanan data"
+  ],
+  "metode": [
+    "video call",
+    "online",
+    "tatap muka",
+    "virtual",
+    "zoom",
+    "telepon",
+    "offline",
+    "cara konsultasi",
+    "metode konsultasi"
+  ]
+}

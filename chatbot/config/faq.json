@@ -1,0 +1,9 @@
+{
+  "jam": "Jam operasional {{clinic.hours}}.",
+  "lokasi": "Lokasi: {{clinic.address}}. Kontak: {{clinic.phone}}.",
+  "layanan": "Layanan: Konseling individu, pasangan/keluarga, psikotes.",
+  "tarif": "Tarif mulai RpXXX.000/sesi (50 menit).",
+  "booking": "Booking via tombol 'Buat Janji' atau WA Admin: {{clinic.phone}}.",
+  "privasi": "✅ **Privasi terjamin 100%**. Semua sesi konseling bersifat rahasia dan mengikuti kode etik psikologi. Data pribadi Anda dilindungi sesuai standar keamanan profesional.",
+  "metode": "Kami menyediakan konsultasi **tatap muka** di klinik dan **online** (video call/telepon). Pilih metode yang paling nyaman untuk Anda saat booking."
+}

@@ -1,0 +1,294 @@
+/* --- 1. VARIABEL WARNA & DASAR --- */
+:root {
+    --primary: #00AAE1; /* Biru terang */
+    --secondary: #2C71B4; /* Biru medium */
+    --accent-red: #C55D4E; /* Merah aksen */
+    --accent-green: #94C64E; /* Hijau Tombol Chat sesuai gambar */
+    --light: #F8F9FA;
+    --dark: #212529;
+    --abu-muda: #E8EAF6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+    overflow-x: hidden;
+}
+
+/* --- 2. NAVBAR --- */
+
+.navbar-brand img { width: 40px !important; height: 40px !important; }
+.navbar-brand h1 { font-size: 1.5rem; margin-left: 10px; }
+
+
+.nav-item.nav-link.active {
+    color: var(--primary) !important;
+    border-bottom: 2px solid var(--primary);
+}
+.nav-item.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+/* --- 3. SECTION PSIKOLOG (MAIN CONTENT) --- */
+.psychologist-list-section {
+    padding: 100px 0 80px; /* Ditambah padding atas dari 40px ke 100px */
+    position: relative;
+    min-height: 80vh;
+}
+
+/* Background Shapes */
+.background-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.shape-image {
+    position: absolute;
+    width: 250px;
+    opacity: 0.8;
+}
+
+.blue-left-top { top: -20px; left: -50px; }
+.green-right-top { top: -20px; right: -50px; }
+
+/* Judul & Back Link */
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 60px; /* Jarak ke bawah (ke link 'Psikolog') diperlebar */
+    margin-top: 20px;    /* Tambahan jarak sedikit dari atas */
+    position: relative;
+    z-index: 10;
+}
+.psychologist-list-section.psikolog-v2 .page-title {
+    color: #ffffff;
+}
+.back-link {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+    margin-left: 15px; /* Menyelaraskan dengan tepi kartu */
+    position: relative;
+    z-index: 10;
+}
+
+.back-link:hover { color: var(--accent-green); }
+
+/* --- 4. KARTU PSIKOLOG (Updated Design) --- */
+
+/* Container Grid */
+.psychologist-row-list {
+    margin-top: 30px;
+}
+
+/* Card Style Utama */
+.profile-card {
+    background: #ffffff;
+    border-radius: 12px; /* Sudut sedikit membulat */
+    padding: 35px 20px;
+    text-align: center; /* Membuat semua isi rata tengah */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Bayangan halus */
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+    height: 100%; /* Agar tinggi kartu seragam */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Efek Hover pada Kartu */
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Foto Profil Bulat */
+.profile-img-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px; /* Posisi tengah & jarak bawah */
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Membuat foto jadi bulat */
+    border: 3px solid #f8f9fa; /* Border tipis di sekeliling foto */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Tipografi Nama & Role */
+.profile-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.psikolog-v2 {
+    background-color: #05bcf9;
+}
+
+
+/* Tombol Hijau Lonjong */
+.btn-profile-action {
+    background-color: #94C64E; /* Warna hijau sesuai referensi sblmnya */
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 50px; /* Membuat tombol lonjong (Pill shape) */
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+    display: inline-block;
+    border: none;
+}
+
+.btn-profile-action:hover {
+    background-color: #7ab332;
+    color: white;
+    box-shadow: 0 4px 12px rgba(148, 198, 78, 0.4);
+}
+
+/* Tombol Chat */
+.btn-chat {
+    background-color: var(--accent-green);
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.btn-chat:hover {
+    background-color: #82b341;
+    color: white;
+    box-shadow: 0 4px 12px rgba(148, 198, 78, 0.3);
+}
+
+
+/* --- TAMBAHAN: TOMBOL SEJAJAR & WARNA BIRU --- */
+
+/* Wrapper agar tombol berjejer ke samping */
+.action-buttons-wrapper {
+    display: flex;
+    gap: 8px; /* Jarak antar tombol */
+    justify-content: center; /* Posisi di tengah */
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    flex-wrap: wrap; /* Agar aman di layar kecil */
+}
+
+/* Style Tombol Biru (Konsultasi) */
+.btn-profile-blue {
+    background-color: var(--primary); /* Biru sesuai tema */
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+    border: none;
+    white-space: nowrap; /* Mencegah teks turun baris */
+    display: inline-block;
+}
+
+.btn-profile-blue:hover {
+    background-color: var(--secondary); /* Biru gelap saat hover */
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 166, 251, 0.3);
+}
+
+/* Update Tombol Hijau (Agar ukurannya seimbang) */
+.btn-profile-action {
+    padding: 8px 18px !important;
+    font-size: 0.85rem !important;
+    white-space: nowrap;
+}
+/* --- 5. FOOTER --- */
+.footer {
+    background-color: var(--abu-muda) !important;
+    border-top: 1px solid #ddd;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-logo { display: flex; align-items: center; margin-bottom: 15px; }
+.footer-logo img { max-width: 40px !important; margin-right: 8px; }
+.footer-brand { font-size: 1.2rem; font-weight: 700; color: var(--secondary); margin: 0; }
+
+.footer-links li a {
+    color: #555 !important;
+    font-size: 0.95rem;
+    line-height: 2;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-links li a:hover { color: var(--primary) !important; }
+
+.social-links .social-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    color: var(--secondary);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.social-links .social-icon:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* --- 6. RESPONSIVE --- */
+@media (max-width: 768px) {
+    .consultation-card {
+        flex-direction: row; /* Tetap menyamping di mobile jika memungkinkan */
+        padding: 15px;
+    }
+    
+    .psikolog-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn-chat {
+        padding: 6px 15px;
+        font-size: 0.8rem;
+    }
+
+    .shape-image { width: 150px; }
+}
+

@@ -1,0 +1,137 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* --- Global Styles --- */
+body {
+    background-color: #f8f9fa; /* Abu-abu muda background halaman */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* --- Container Utama --- */
+.payment-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* --- Judul Halaman (Payment) --- */
+h1.page-title {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+/* --- Judul Section (Personal details, Payment methods, dll) --- */
+h4.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* --- Labels --- */
+label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #354F8E; /* Warna biru gelap tema */
+    margin-bottom: 5px;
+}
+
+/* --- Form Input --- */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    height: auto;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #8CC63F; /* Hijau saat diklik */
+    box-shadow: 0 0 0 0.2rem rgba(140, 198, 63, 0.25);
+}
+
+/* --- Input Read-Only (Warna Abu-abu) --- */
+.form-control:read-only {
+    background-color: #E6E6E6; 
+    color: #333;
+    font-weight: 600;
+    border: none;
+    cursor: not-allowed;
+}
+
+/* --- Payment Methods (Pilihan Icon) --- */
+.payment-methods-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.payment-option {
+    display: none; /* Sembunyikan radio button bulat asli */
+}
+
+.payment-label {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    min-width: 80px;
+}
+
+.payment-label img {
+    max-height: 30px;
+    max-width: 100%;
+}
+
+.payment-label:hover {
+    border-color: #8CC63F;
+}
+
+/* Efek saat opsi dipilih (Checked) */
+.payment-option:checked + .payment-label {
+    border: 2px solid #8CC63F;
+    background-color: #f0fdf4; /* Hijau sangat muda */
+    box-shadow: 0 4px 10px rgba(140, 198, 63, 0.2);
+    transform: translateY(-2px);
+}
+
+/* --- Tombol Submit --- */
+.btn-submit {
+    background-color: #8CC63F; /* Hijau CurhatKuy */
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #7ab332;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(140, 198, 63, 0.3);
+}
+
+/* --- Alert Box --- */
+.alert {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

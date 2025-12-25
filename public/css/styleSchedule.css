@@ -1,0 +1,390 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Warna yang Diperbarui (Menggunakan Skema Biru Muda) */
+    --color-primary-green: #00A6FB; /* Biru Utama (Pengganti Hijau) */
+    --color-light-green: #d8e7ef; /* Biru Muda Background */
+    --color-text-dark: #333;
+    --color-text-grey: #666;
+    --color-date-active: #ffffff;
+    --color-time-slot-bg: #def4ff;
+    /* Perbaiki nilai RGB yang salah menjadi warna solid */
+    --color-time-slot-border: #96CBE6; 
+}
+
+/* --- Global Reset and Typography --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: var(--color-text-dark);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- Konsistensi Styling untuk Navbar Bootstrap --- */
+
+/* Logo Brand */
+.navbar-brand h1 {
+    color: var(--color-primary-green) !important;
+    font-weight: 700;
+}
+
+
+/* Tombol Login (Bootstrap Primary Button Styling) */
+.btn-primary {
+    background-color: var(--color-primary-green) !important;
+    border-color: var(--color-primary-green) !important;
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    /* Warna hover disesuaikan dengan skema biru */
+    background-color: #0087d3 !important; 
+    border-color: #0087d3 !important;
+}
+
+
+/* --- Main Content Layout --- */
+.main-content {
+    position: relative;
+    padding: 50px 0;
+    min-height: 80vh;
+    overflow: hidden; 
+}
+
+/* --- Background Shapes (Sesuai dengan gambar referensi) --- */
+
+.background-shape-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100%;
+    background-color: var(--color-light-green);
+    transform: skewY(-10deg); 
+    transform-origin: top left;
+    z-index: 0;
+    border-radius: 0 0 100% 0;
+    opacity: 0.8; 
+}
+
+.background-shape-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: var(--color-light-green);
+    transform: skewY(5deg);
+    transform-origin: top right;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+/* --- Schedule Card --- */
+.schedule-container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.schedule-container h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.schedule-container p {
+    color: var(--color-text-grey);
+    margin-bottom: 30px;
+}
+
+/* --- Scheduling Area --- */
+.scheduling-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.select-datetime {
+    /* Mengisi ruang yang mengandung kalender dan slot waktu */
+    flex-basis: 65%; 
+    order: 1; 
+}
+
+.select-datetime .label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.select-datetime .timezone {
+    display: block;
+    font-size: 14px;
+    color: var(--color-text-grey);
+    margin-bottom: 30px;
+}
+
+.service-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    margin-bottom: 20px;
+}
+
+/* --- Service Details Row (Diposisikan di kanan) --- */
+.service-details-row {
+    flex-basis: 30%; 
+    padding-top: 10px;
+    order: 2; 
+}
+
+.service-details-box {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.psikolog-name {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.more-details-link {
+    font-size: 14px;
+    color: var(--color-text-grey);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.arrow-down {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+/* --- Calendar and Time Slot Layout --- */
+.calendar-and-time {
+    display: flex;
+    gap: 50px; 
+    width: 100%;
+}
+
+.calendar-box {
+    flex: 1;
+    min-width: 50%;
+}
+
+.time-slots-and-button {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* --- Calendar Styling --- */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.month-year {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text-dark);
+}
+
+.arrow-left, .arrow-right {
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--color-text-grey);
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.calendar th {
+    font-weight: 500;
+    color: var(--color-text-grey);
+    padding: 10px 5px;
+    font-size: 14px;
+}
+
+.calendar td {
+    padding: 10px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--color-text-dark); /* PERBAIKAN: Pastikan angka tanggal berwarna gelap */
+    position: relative;
+    line-height: 1.2;
+}
+
+/* Gaya baru dari JS untuk kalender dinamis */
+.calendar td.disabled, .calendar td.disabled-month {
+    color: #ccc !important; 
+    cursor: not-allowed !important;
+}
+
+.calendar td.available {
+    color: var(--color-primary-green);
+    font-weight: 500;
+}
+
+/* Tambahkan Availability Dot untuk tanggal yang tersedia */
+.calendar td.available::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-primary-green);
+    border-radius: 50%;
+    margin: 4px auto 0;
+}
+
+.calendar td.today-date {
+    border: 1px solid var(--color-primary-green); 
+    border-radius: 50%;
+}
+
+.calendar td.active-date {
+    background-color: var(--color-primary-green);
+    color: var(--color-date-active);
+    border-radius: 50%;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+/* Pastikan tanggal aktif tidak menampilkan dot */
+.calendar td.active-date::after {
+    content: none;
+}
+
+/* --- Time Slots Styling (Hapus border pemisah) --- */
+.time-availability-header {
+    width: 100%;
+    border-left: none; 
+    padding-left: 0;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    border-left: none; 
+    padding-left: 0;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.time-slot {
+    background-color: var(--color-time-slot-bg);
+    color: var(--color-primary-green);
+    border: 1px solid var(--color-time-slot-border);
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.time-slot:hover {
+    background-color: #b2e4ff; 
+}
+
+.time-slot.active-time {
+    background-color: var(--color-primary-green);
+    color: #ffffff;
+    border-color: var(--color-primary-green);
+}
+
+.lanjut-button {
+    background-color: var(--color-primary-green);
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start; 
+    margin-left: 0;
+    transition: background-color 0.2s;
+}
+
+.lanjut-button:hover {
+    background-color: #0087d3; 
+}
+
+.lanjut-button:disabled {
+    background-color: #a4a4a4;
+    cursor: not-allowed;
+}
+
+        /* CSS tambahan untuk kalender dinamis */
+        .calendar td.today-date {
+            border: 1px solid var(--color-primary-green);
+            border-radius: 50%;
+        }
+        .calendar td.disabled-month, .calendar td.disabled {
+            color: #ccc !important;
+            cursor: not-allowed !important;
+        }
+
+
+/* --- Footer --- */
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-links li a {
+    font-size: 13px;
+    color: var(--color-text-grey) !important;
+    line-height: 2.2;
+    transition: color 0.2s;
+}
+
+.footer-links li a:hover {
+    color: var(--color-primary-green) !important;
+}
+
+/* Styling Icon Sosial */
+.social-links .social-icon i {
+    font-size: 20px;
+    color: var(--color-text-grey);
+    transition: color 0.2s;
+}
+
+.social-links .social-icon:hover i {
+    color: var(--color-primary-green);
+}

@@ -1,0 +1,219 @@
+
+
+        /* Global Font Override untuk Section Baru */
+        .ck-new-section, .ck-new-section h1, .ck-new-section h2, .ck-new-section h5, .ck-new-section p, .ck-new-section a {
+            font-family: 'Poppins', sans-serif !important;
+        }
+
+        :root {
+            --ck-blue: #00B7F1;
+            --ck-green: #8CC63F;
+            --ck-orange: #FFA500;
+            --ck-text: #666;
+        }
+
+        /* --- 1. INTRO & FEATURES (Design: image_fbc701.png) --- */
+        .about-intro-section {
+            position: relative;
+            padding: 80px 0 40px;
+            background: #fff;
+            overflow: hidden;
+        }
+        
+        /* Dekorasi Blob (Lengkungan Biru & Lingkaran Hijau) */
+        .deco-blob-left {
+            position: absolute; top: 0; left: 0;
+            width: 200px; height: 150px;
+            background-color: var(--ck-blue);
+            border-bottom-right-radius: 100%; border-top-right-radius: 50%;
+            z-index: 1;
+        }
+        .deco-circle-left {
+            position: absolute; top: 20px; left: 140px;
+            width: 30px; height: 30px;
+            border: 4px solid var(--ck-green); border-radius: 50%;
+            z-index: 2;
+        }
+        .deco-blob-right {
+            position: absolute; top: 0; right: 0;
+            width: 150px; height: 150px;
+            background-color: var(--ck-blue);
+            border-bottom-left-radius: 100%;
+            z-index: 1;
+        }
+        .deco-circle-right {
+            position: absolute; top: 80px; right: 180px;
+            width: 40px; height: 40px;
+            background-color: var(--ck-green); border-radius: 50%;
+            z-index: 1;
+        }
+
+        .header-subtitle {
+            color: #005a8d; font-weight: 700; font-size: 1.2rem;
+            position: relative; z-index: 5;
+        }
+        
+        .welcome-title { font-size: 2.5rem; font-weight: 700; color: #333; margin-bottom: 20px; }
+        .text-highlight { color: var(--ck-blue); }
+        
+        .cta-btn-green {
+            background-color: var(--ck-green); color: #fff !important;
+            padding: 10px 40px; border-radius: 30px; font-weight: 600;
+            text-decoration: none; display: inline-block; transition: 0.3s; margin-top: 20px;
+        }
+        .cta-btn-green:hover { background-color: #7ab332; transform: translateY(-3px); }
+
+        /* Feature Cards */
+        .ck-feature-card {
+            background: #fff; border: 1px solid #eee; border-radius: 20px;
+            padding: 30px 20px; text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05); height: 100%;
+            transition: transform 0.3s;
+        }
+        .ck-feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        
+        .icon-circle-green {
+            width: 80px; height: 80px;
+            background-color: var(--ck-green); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 20px; color: #fff; font-size: 32px;
+        }
+        
+        .wave-bottom {
+            margin-top: 20px; color: var(--ck-blue);
+            font-size: 24px; letter-spacing: -5px; font-weight: 900;
+        }
+
+        /* --- 2. VALUES SECTION (Design: image_b4563b.png) --- */
+        .values-section { padding: 80px 0; background-color: #f9f9f9; }
+        .values-badge {
+            background-color: var(--ck-green); color: #fff;
+            padding: 5px 25px; border-radius: 20px; font-weight: 600;
+            display: inline-block; margin-bottom: 15px;
+        }
+        .values-title { color: var(--ck-blue); font-weight: 700; font-size: 2rem; margin-bottom: 30px; }
+        .values-item h5 { font-weight: 700; margin-bottom: 5px; color: #333; }
+        .values-item p { font-size: 14px; color: #666; margin-bottom: 20px; line-height: 1.6; }
+
+        /* --- 3. PSYCHOLOGIST TEAM (Design: image_b3627a.png) --- */
+        #psikolog-kami {
+            background-color: #00B7F1 !important; /* Background Biru */
+            padding: 80px 0 100px 0;
+            position: relative; width: 100%;
+        }
+        #psikolog-kami .section-title {
+            color: #ffffff !important; font-weight: 700; text-align: center;
+            margin-bottom: 80px; font-size: 2.2rem;
+        }
+        #psikolog-kami .psychologist-card {
+            background-color: #ffffff !important; border-radius: 15px;
+            padding: 0 20px 30px 20px; text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-top: 60px !important; /* Ruang kepala */
+            overflow: visible !important; /* Agar foto nongol */
+            position: relative; z-index: 10; height: 100%;
+            transition: transform 0.3s ease; border: none;
+        }
+        #psikolog-kami .psychologist-card:hover { transform: translateY(-10px); }
+        
+        #psikolog-kami .psychologist-card img {
+            width: 130px !important; height: 130px !important;
+            border-radius: 50% !important; object-fit: cover;
+            margin-top: -65px !important; margin-bottom: 20px;
+            border: 5px solid #ffffff; background-color: #eee;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: none;
+        }
+        
+        #psikolog-kami .psychologist-name { font-size: 16px; font-weight: 700; color: #333; margin-bottom: 8px; }
+        #psikolog-kami .psychologist-degree { font-size: 13px; color: #888; margin-bottom: 25px; }
+        
+        #psikolog-kami .btn-custom-green {
+            background-color: #8CC63F !important; color: #fff !important;
+            border: none; padding: 8px 20px; font-weight: 600; font-size: 12px;
+            border-radius: 50px; text-decoration: none; display: inline-block; transition: 0.3s;
+        }
+        #psikolog-kami .btn-custom-green:hover { background-color: #7ab332 !important; }
+        
+        #psikolog-kami .btn-custom-orange {
+            background-color: #FFA500 !important; color: #fff !important;
+            border: none; padding: 8px 20px; font-weight: 600; font-size: 12px;
+            border-radius: 50px; text-decoration: none; display: inline-block; transition: 0.3s;
+        }
+        #psikolog-kami .btn-custom-orange:hover { background-color: #e69500 !important; }
+
+        /* CSS KHUSUS BAGIAN VALUES */
+    .ck-values-section {
+        padding: 100px 0;
+        background-color: #f9f9f9; /* Abu-abu sangat muda, hampir putih */
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    /* Badge Hijau 'Tentang Kami' */
+    .ck-values-badge {
+        background-color: #8CC63F; /* Hijau Branding */
+        color: #fff;
+        padding: 8px 25px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(140, 198, 63, 0.2);
+    }
+
+    /* Judul Utama */
+    .ck-values-title {
+        color: #00B7F1; /* Biru Branding */
+        font-weight: 800;
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        line-height: 1.2;
+    }
+    
+    .ck-values-title span {
+        display: block;
+        color: #333; /* Warna hitam untuk 'mengutamakan...' */
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    /* List Item Values */
+    .ck-values-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px; /* Jarak antar poin */
+    }
+
+    .ck-values-item h5 {
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #222; /* Hitam pekat */
+        font-size: 1.1rem;
+    }
+
+    .ck-values-item p {
+        font-size: 15px;
+        color: #666; /* Abu-abu teks */
+        margin-bottom: 0;
+        line-height: 1.6;
+    }
+    
+    /* Gambar Ilustrasi */
+    .ck-values-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Responsif untuk HP */
+    @media (max-width: 991px) {
+        .ck-values-section {
+            padding: 60px 0;
+            text-align: left;
+        }
+        .ck-values-img {
+            max-width: 80%;
+            margin-bottom: 40px;
+        }
+    }

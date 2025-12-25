@@ -1,0 +1,884 @@
+/* --- Custom Styling untuk UI Baru --- */
+
+:root {
+    --primary: #00a7fa; /* Biru terang dari desain */
+    --secondary: #2C71B4; /* Biru gelap/medium */
+    --accent-red: #C55D4E; /* Oranye/Merah kecoklatan dari ilustrasi */
+    --light: #F8F9FA;
+    --dark: #212529;
+    --abu-muda: #E8EAF6; /* Warna abu muda/putih kebiruan untuk footer */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-primary { color: var(--primary) !important; }
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.bg-primary { background-color: var(--primary) !important; }
+.btn-secondary {
+    color: #fff;
+    background-color: var(--accent-red);
+    border-color: var(--accent-red);
+}
+.btn-secondary:hover {
+    background-color: #a04a3e;
+    border-color: #a04a3e;
+}
+
+/* Navbar */
+.navbar-brand img { width: 40px !important; height: 40px !important; }
+.navbar-brand h1 { font-size: 1.5rem; margin-left: 10px; }
+
+
+.nav-item.nav-link.active {
+    color: var(--primary) !important; 
+    border-bottom: 2px solid var(--primary); 
+}
+.nav-item.nav-link:hover {
+    color: var(--primary) !important; 
+}
+/* Hero Section */
+.hero-section {
+    padding-top: 5rem; /* Menambah padding atas agar ada ruang dari navbar */
+    padding-bottom: 5rem; /* Menambah padding bawah */
+}
+
+/* Pastikan gambar di dalam hero-illustration responsif dan berada di tengah (jika perlu) */
+.hero-illustration {
+    display: flex; /* Untuk memposisikan gambar */
+    justify-content: center; /* Pusatkan gambar secara horizontal */
+    align-items: center; /* Pusatkan gambar secara vertikal */
+    padding: 20px; 
+}
+
+.hero-illustration img {
+    max-width: 100%;
+    height: auto;
+    /* Optional: Tambahkan bayangan ringan pada gambar untuk efek 3D */
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);  */
+    border-radius: 10px;
+}
+
+.hero-section .row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.hero-section .lead {
+    color: #6c757d;
+}
+.hero-section .btn-lg {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Konsultasi Section */
+.konsultasi-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* Tambahkan background biru muda yang ada di UI Anda */
+    background-color: #fdfdfd; /* Warna biru muda */
+}
+
+.konsultasi-card-new .text-primary {
+    color: var(--primary) !important; /* Memastikan teks primary tetap biru */
+}
+
+.konsultasi-card-new {
+    width: 100%;
+    max-width: 300px; /* Ukuran maksimal card */
+    min-height: 350px; /* Tinggi minimal card agar seragam */
+    border: none;
+    border-radius: 15px; /* Sudut membulat */
+    /* Efek glossy/shadow yang lebih lembut */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #FFFFFF; /* Pastikan background card putih */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Konten dimulai dari atas */
+    align-items: center;
+}
+
+.konsultasi-card-new:hover {
+    /* Efek glossy saat di-hover */
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-wrapper {
+    /* Lingkaran biru muda di belakang gambar */
+    width: 180px;
+    height: 180px;
+    background-color: #e6f7ff; /* Warna latar belakang gambar */
+    border-radius: 10px; /* Sudut membulat */
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Penting agar gambar tidak keluar dari batas */
+}
+
+.card-illustration {
+    /* Mengatur ukuran gambar ilustrasi */
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain; /* Memastikan gambar terlihat utuh */
+    /* Menghilangkan border biru pada gambar (jika ada dari UI sebelumnya) */
+    border: none !important; 
+    border-radius: 0 !important;
+}
+
+/* Key Features Section */
+.features-section {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+.features-title {
+    font-weight: 700;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature-icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 166, 251, 0.3);
+}
+
+/* Psychologist Section */
+.psychologist-section {
+    padding: 5rem 0;
+    background-color: #E6F3FF; /* Background biru muda full width */
+}
+.psychologist-section .section-title {
+    font-weight: 700;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+.psychologist-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 10px;
+    height: 100%; 
+    min-height: 280px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    transition: transform 0.2s;
+}
+.psychologist-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.psychologist-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    margin-bottom: 10px; 
+}
+.psychologist-name {
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 2px;
+    font-size: 1.1rem;
+}
+.psychologist-degree {
+    font-size: 0.85rem;
+    color: var(--accent-red);
+    font-weight: 500;
+    margin-bottom: 15px; 
+}
+
+.features-section {
+    padding: 60px 0 80px;
+    background-color: #fff;
+}
+
+/* Judul Section */
+.features-title {
+    text-align: center;
+    color: #00B7F1; /* Biru CurhatKuy */
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Style Kartu (Kotak Putih) */
+.feature-card {
+    background: #fff;
+    border: 1px solid #f0f0f0; /* Garis tipis halus */
+    border-radius: 20px;       /* Sudut membulat */
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05); /* Bayangan default */
+    height: 100%;              /* Agar tinggi kartu rata */
+    transition: all 0.3s ease; /* Transisi halus untuk hover */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efek Hover (Gerak Naik & Bayangan Menebal) */
+.feature-card:hover {
+    transform: translateY(-10px); /* Naik ke atas 10px */
+    box-shadow: 0 15px 30px rgba(0, 183, 241, 0.15); /* Bayangan biru halus */
+    border-color: #00B7F1; /* Border jadi biru saat hover (opsional) */
+}
+
+/* Lingkaran Ikon Hijau */
+.feature-icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color:  #00B7F1;/* Biru CurhatKuy */
+    border-radius: 50%;        /* Bulat sempurna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;       /* Tengah horizontal & jarak bawah */
+    color: #fff;               /* Warna ikon putih */
+    font-size: 32px;           /* Ukuran ikon */
+    box-shadow: 0 4px 10px rgba(140, 198, 63, 0.3); /* Bayangan hijau */
+}
+
+/* Teks Deskripsi */
+.feature-text {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 0;
+}
+
+/* --- TENTANG KAMI (BARU) --- */
+.about-us-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+
+.about-us-section .badge-about-us {
+    background-color: #dcfce7; /* Hijau muda latar belakang */
+    color: #166534; /* Hijau gelap teks */
+    padding: 6px 15px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.about-us-section .title-about-us {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #212529;
+    line-height: 1.3;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.about-us-section .text-primary {
+    color: var(--primary) !important;
+}
+
+.about-us-section .text-about-us {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.about-us-section .image-wrapper {
+    position: relative;
+    padding: 0;
+    aspect-ratio: 1 / 1; 
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+.about-us-section .about-us-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .about-us-section .title-about-us {
+        font-size: 2.5rem;
+    }
+}
+
+/* Penyesuaian untuk tampilan di layar kecil */
+@media (max-width: 991.98px) {
+    .hero-illustration {
+        margin-top: 2rem; /* Tambahkan margin atas saat gambar berada di atas teks */
+        margin-bottom: 2rem;
+    }
+    .hero-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    /* Mengubah urutan kembali ke default untuk mobile (gambar di atas) */
+    .col-lg-6.order-lg-2 {
+        order: -1 !important; /* Gunakan order: -1 untuk membuat gambar muncul di atas */
+    }
+}
+
+@media (max-width: 768px) {
+    .konsultasi-card-new {
+        max-width: 90%; /* Card lebih lebar di mobile */
+        margin-bottom: 1.5rem;
+    }
+    .d-flex.flex-wrap.justify-content-center.gap-4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0 !important; /* Hilangkan gap bawaan bootstrap saat column */
+    }
+}
+
+/* --- FOOTER (REVISI) --- */
+.footer {
+    background-color: var(--abu-muda) !important; /* Latar belakang abu muda */
+    border-top: 1px solid #ddd;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.footer-logo img {
+    max-width: 40px !important;
+    height: auto;
+    margin-right: 8px;
+}
+.footer-brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin: 0;
+}
+.contact-info .text-muted.small {
+    line-height: 1.5;
+}
+.footer-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333; /* Warna judul lebih gelap */
+    margin-bottom: 1rem;
+}
+.footer-links li a {
+    color: #555 !important;
+    font-size: 0.95rem;
+    line-height: 2; /* Jarak antar link */
+    transition: color 0.2s;
+}
+.footer-links li a:hover {
+    color: var(--primary) !important;
+}
+
+/* Social Icons */
+.social-links .social-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    color: var(--secondary);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.social-links .social-icon:hover {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+.footer .row.mt-5 {
+    border-top: 1px solid #c9c9c9;
+    padding-top: 1rem;
+    margin-top: 2rem !important;
+}
+
+/* --- CHATBOT UI: FLOATING BUTTON & POPUP (Desain Baru) --- */
+
+/* Pengaturan Umum Chat */
+.ck-chat, .ck-launcher {
+    position: fixed;
+    z-index: 1000; /* Pastikan di atas elemen lain */
+    bottom: 30px; 
+    right: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Warna teks default */
+}
+
+/* Launcher Button (Floating Button) */
+.ck-launcher {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--primary); /* Menggunakan warna primary */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s, opacity 0.2s;
+    padding: 0;
+}
+.ck-launcher:hover {
+    transform: scale(1.05);
+}
+.ck-launcher svg {
+    width: 26px;
+    height: 26px;
+}
+
+/* Chat Popup Window */
+.ck-chat {
+    width: 350px; /* Lebih lebar sedikit */
+    height: 550px; /* Lebih tinggi dari sebelumnya */
+    background-color: #f7f7f7; /* Latar belakang abu terang untuk keseluruhan chat */
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Mulai tersembunyi */
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+    visibility: hidden;
+    transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+    transform-origin: bottom right;
+}
+
+/* State Terbuka */
+.ck-chat.open {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    visibility: visible;
+}
+
+/* --- Header Chatbot Baru --- */
+.ck-header-new {
+    background: linear-gradient(to right, #00A6FB, #2C71B4); /* Gradasi biru */
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.ck-header-new .bot-info {
+    display: flex;
+    align-items: center;
+}
+.ck-header-new .bot-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Border putih tipis */
+}
+.ck-header-new .ck-title-new {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+.ck-header-new .status-online {
+    font-size: 0.75rem;
+    color: #A3E635; /* Warna hijau cerah untuk status online */
+    margin-top: 2px;
+}
+.ck-close {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem; /* Ukuran ikon tutup */
+}
+
+/* --- Revisi di .ck-body-new --- */
+
+.ck-body-new {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Pastikan konten ditumpuk vertikal */
+    align-items: center; 
+    justify-content: flex-start;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f7f7f7; 
+    position: relative; 
+}
+
+/* Ilustrasi Bot di Tengah */
+.bot-illustration {
+    width: 120px;
+    height: 120px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ccc" d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zM50 90c-22.1 0-40-17.9-40-40S27.9 10 50 10s40 17.9 40 40-17.9 40-40 40z"/><circle fill="%2300A6FB" cx="35" cy="40" r="5"/><circle fill="%2300A6FB" cx="65" cy="40" r="5"/><path fill="%2300A6FB" d="M30 65c0 8.3 6.7 15 15 15h10c8.3 0 15-6.7 15-15H30z"/></svg>'); /* Gambar bot dari UI */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    opacity: 0.8; /* Sedikit transparan */
+    
+    /* Ilustrasi yang Anda tunjukkan tampak seperti ikon "typing" atau "thinking" */
+    /* Untuk sementara saya gunakan SVG placeholder. Anda bisa menggantinya dengan gambar PNG/SVG asli. */
+    /* Untuk membuat efek "typing" seperti di UI, bisa pakai GIF atau CSS animation */
+}
+
+/* Container Welcome Content */
+.ck-welcome-content {
+    /* Mengubah arah layout dari horizontal (default flex) menjadi vertikal */
+    display: flex; /* Pastikan ini ada (sudah ada di JavaScript, tapi pastikan di CSS juga) */
+    flex-direction: column; 
+    
+    /* Menambahkan jarak antara elemen-elemen di dalam kontainer */
+    gap: 10px; /* Jarak vertikal antara pesan dan tombol-tombol */
+    
+    /* Menambah padding (opsional, untuk tampilan lebih bagus) */
+    padding: 10px;
+}
+
+ck-welcome-content .welcome-option-btn {
+    /* Mengubah tombol agar mengambil lebar penuh dari kontainernya */
+    width: 100%;
+    
+    /* Penyesuaian visual untuk tombol */
+    text-align: left; /* Teks di tombol rata kiri */
+    padding: 10px 15px;
+    border-radius: 8px; /* Sudut lebih lembut */
+    background-color: #f0f0f0; /* Warna latar belakang tombol yang berbeda */
+    color: #333;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+/* Welcome Message Awal */
+.welcome-message {
+    background-color: #e0e0e0; /* Latar abu terang untuk pesan */
+    border-radius: 18px; /* Lebih membulat */
+    padding: 12px 18px;
+    margin: 0 auto 10px auto; /* Memusatkan pesan */
+    max-width: 80%;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Penyesuaian untuk pesan sambutan agar terlihat seperti pesan chat */
+.ck-welcome-content .welcome-message {
+    padding: 10px 15px;
+    background-color: var(--primary); /* Menggunakan warna primary */
+    color: white;
+    border-radius: 20px 20px 20px 0;
+    align-self: flex-start; /* Pesan bot rata kiri */
+    max-width: 80%; /* Batasi lebar pesan */
+}
+
+/* Welcome Option Buttons */
+.welcome-option-btn {
+    display: block; /* Setiap tombol di baris baru */
+    width: 80%; /* Lebar tombol */
+    margin: 8px auto; /* Jarak antar tombol dan pemusatan */
+    padding: 12px 18px;
+    background-color: #fff; /* Latar belakang putih */
+    border: 1px solid #ddd; /* Border tipis */
+    border-radius: 25px; /* Sangat membulat */
+    font-size: 0.9rem;
+    color: #444;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Bayangan lembut */
+}
+.welcome-option-btn:hover {
+    background-color: var(--abu-muda); /* Latar belakang abu muda saat hover */
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+
+/* Container untuk pesan chat sesungguhnya */
+.ck-box {
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+    padding: 0 5px; 
+    margin-bottom: 10px;
+    display: none; 
+    
+    /* >>> PENAMBAHAN PENTING UNTUK MENUMPUK PESAN VERTIKAL <<< */
+    flex-direction: column; 
+}
+
+/* Message Styling */
+.ck-msg {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    
+    /* >>> PENAMBAHAN PENTING: IZINKAN TEKS PINDAH BARIS <<< */
+    word-wrap: break-word; 
+    white-space: normal;
+}
+.ck-msg.bot {
+    background-color: #e0e0e0; /* Latar abu terang */
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 3px;
+    margin-right: auto;
+}
+.ck-msg.user {
+    background-color: var(--primary);
+    color: #fff;
+    align-self: flex-end;
+    border-bottom-right-radius: 3px;
+    margin-left: auto;
+}
+.ck-msg h3 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.ck-msg p {
+    margin: 0;
+}
+.ck-msg ul, .ck-msg ol {
+    margin: 5px 0 0 15px;
+    padding: 0;
+}
+.ck-msg li {
+    margin-bottom: 3px;
+}
+
+
+/* Chat Actions (Hubungi Admin / Mulai Sesi Baru) */
+.ck-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.3s, max-height 0.3s;
+    overflow: hidden;
+    width: 100%; /* Agar tombol rata tengah di body */
+}
+.ck-actions.show {
+    opacity: 1;
+    max-height: 50px;
+}
+.ck-btn.sm {
+    padding: 8px 15px; /* Ukuran lebih besar */
+    font-size: 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+.ck-btn.sm:hover {
+    background-color: var(--secondary);
+    color: #fff;
+}
+.ck-btn.sm.hidden {
+    display: none;
+}
+
+/* --- Input Chat Baru --- */
+.ck-input-new {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff; /* Latar belakang input putih */
+    border-top: 1px solid #eee; /* Garis pemisah */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.ck-input-new input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px; /* Sangat membulat */
+    margin-right: 10px;
+    font-size: 0.95rem;
+    background-color: #f0f0f0; /* Latar belakang input lebih gelap */
+    color: #333;
+}
+.ck-input-new input::placeholder {
+    color: #888;
+}
+.ck-input-new input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background-color: #fff;
+}
+.ck-input-new .input-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Jarak antar ikon dan tombol kirim */
+}
+.ck-input-new .icon-button {
+    background: none;
+    border: none;
+    color: #888; /* Warna ikon kamera */
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.ck-input-new .icon-button:hover {
+    color: var(--primary);
+}
+.ck-send-new {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Bulat */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    padding: 0; /* Pastikan tidak ada padding default */
+}
+.ck-send-new:hover {
+    background-color: var(--secondary);
+}
+.ck-send-new svg {
+    width: 20px; /* Ukuran ikon panah */
+    height: 20px;
+}
+.ck-send-new:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+
+/* Typing Indicator (menyesuaikan warna background) */
+.ck-msg.bot.ck-typing {
+    background-color: #e0e0e0; /* Match with default bot message background */
+    opacity: 1;
+}
+
+/* Container Dropdown: Memberikan jarak dan Shadow yang Jelas */
+.dropdown-modern-bold {
+    min-width: 220px; /* Lebar minimum disesuaikan agar proporsional */
+    padding: 8px 0 !important; /* Memberikan jarak atas & bawah di dalam box */
+    background-color: #ffffff;
+    border-radius: 8px; /* Sudut membulat di semua sisi sesuai gambar */
+    
+    /* Shadow yang lebih dalam agar terlihat timbul dan jelas */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important; 
+    
+    margin-top: 15px !important; /* Jarak antara teks navbar dan dropdown */
+    border: none !important; /* Menghilangkan border agar terlihat clean */
+    animation: dropdownShow 0.3s ease-out;
+    z-index: 1000;
+}
+
+/* Menu Item: Rapi dengan Jarak yang Pas */
+.dropdown-modern-bold .dropdown-item {
+    padding: 12px 25px; /* Jarak klik yang nyaman (tidak terlalu rapat) */
+    font-size: 1.1rem;
+    color: #555; /* Warna teks abu-abu sesuai gambar referensi */
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-bottom: none; /* Menghilangkan garis antar menu agar lebih modern */
+}
+
+/* Efek Hover: Blok Warna Biru Penuh (Sesuai Referensi) */
+.dropdown-modern-bold .dropdown-item:hover {
+    background-color: #00AEEF; /* Biru cerah sesuai branding */
+    color: #ffffff !important;
+    padding-left: 28px; /* Sedikit geser saat di-hover */
+}
+
+/* Animasi Muncul Halus */
+@keyframes dropdownShow {
+    from { 
+        opacity: 0; 
+        transform: translateY(15px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+/* Media Queries untuk responsif (opsional, tapi disarankan) */
+@media (max-width: 400px) {
+    .ck-chat {
+        width: 90vw;
+        height: 80vh;
+        bottom: 15px;
+        right: 15px;
+    }
+    .ck-launcher {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+

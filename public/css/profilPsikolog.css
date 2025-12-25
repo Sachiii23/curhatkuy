@@ -1,0 +1,233 @@
+/* --- profilPsikolog.css (Font Updated) --- */
+
+/* 1. Import Font Roboto (Sesuai style.css) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --primary-blue: #00A6FB; /* Sesuai var(--primary) */
+    --secondary-blue: #2C71B4;
+    --primary-green: #94C64E;
+    --text-dark: #333333;
+    --text-grey: #666666;
+    --bg-light: #F8F9FA; /* Sesuai var(--light) */
+}
+
+body {
+    /* MENYAMAKAN FONT DENGAN STYLE.CSS */
+    font-family: 'Roboto', sans-serif; 
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+/* =========================================
+   BAGIAN BARU: HEADER BANNER (Wave Decoration)
+   ========================================= */
+
+.header-banner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+/* Teks Judul Tengah */
+.header-banner-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--secondary-blue); /* Menggunakan variabel baru tadi */
+    z-index: 10;
+    text-align: center;
+}
+
+/* --- Dekorasi Kiri (Wave Atas + Ring Hijau) --- */
+.decoration-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+}
+
+.wave-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    fill: var(--primary-blue);
+}
+
+.circle-ring-green {
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid var(--primary-green);
+    border-radius: 50%;
+    background: transparent;
+    z-index: 2;
+}
+
+/* --- Dekorasi Kanan (Wave Bawah + Solid Hijau) --- */
+.decoration-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 250px;
+}
+
+.wave-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    fill: var(--primary-blue);
+}
+
+.circle-solid-green {
+    position: absolute;
+    bottom: 120px;
+    right: 180px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--primary-green);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* --- RESPONSIVE HEADER (Update Media Query) --- */
+/* Tambahkan kode di dalam kurung ini ke dalam @media (max-width: 768px) yang sudah ada */
+@media (max-width: 768px) {
+    .header-banner-wrapper {
+        height: 180px;
+    }
+    .header-banner-title {
+        font-size: 1.8rem;
+    }
+    .decoration-left, .decoration-right {
+        transform: scale(0.7);
+    }
+    .decoration-left { transform-origin: top left; }
+    .decoration-right { transform-origin: bottom right; }
+}
+
+.profile-detail-section {
+    padding: 60px 0 100px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Foto & Wrapper */
+.profile-header-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.main-profile-img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    background-color: #eee;
+}
+
+/* Dekorasi Titik-titik */
+.dots-decoration {
+    position: absolute;
+    bottom: 30px;
+    left: -60px;
+    width: 100px;
+    height: 80px;
+    z-index: 1;
+    background-image: radial-gradient(var(--primary-blue) 20%, transparent 20%);
+    background-position: 0 0;
+    background-size: 12px 12px;
+    opacity: 0.6;
+}
+
+/* Typography */
+.profile-name-large {
+    font-family: 'Roboto', sans-serif; /* Memastikan font sama */
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+}
+
+.profile-title-large {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--text-grey);
+    margin-bottom: 30px;
+    font-weight: 400; /* Sedikit lebih tipis agar elegan */
+}
+
+/* Tombol Hijau */
+.btn-consult-lg {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-green);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-weight: 700; /* Bold agar tombol tegas */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 5px 15px rgba(148, 198, 78, 0.3);
+}
+
+.btn-consult-lg:hover {
+    background-color: #7ab332;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(148, 198, 78, 0.4);
+}
+
+/* Konten Bawah */
+.content-section {
+    margin-top: 60px;
+}
+
+.section-icon {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem; /* Sedikit diperbesar */
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--text-grey);
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 300; /* Style Roboto Light agar enak dibaca */
+}
+
+@media (max-width: 768px) {
+    .main-profile-img { width: 200px; height: 200px; }
+    .dots-decoration { left: -30px; bottom: 10px; }
+}

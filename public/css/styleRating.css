@@ -1,0 +1,203 @@
+/* Import Font Poppins agar senada dengan halaman lain */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* --- Reset & Base Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f4f8; /* Background halaman abu-abu muda */
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+/* --- Brand Section (Logo & Judul) --- */
+.brand {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.brand .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.brand span {
+    color: #00B7F1; /* Warna Biru CurhatKuy */
+    font-size: 28px;
+}
+
+/* --- Wrapper (Kartu Utama) --- */
+.wrapper {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden; /* Supaya sudut rounded tidak tertutup child element */
+}
+
+/* --- Company Information (Bagian Kiri/Atas) --- */
+.company-info {
+    background: #00B7F1; /* Background Biru */
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-info h3 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.company-info ul li {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+}
+
+.company-info i {
+    margin-right: 10px;
+    color: #fff; /* Icon putih */
+}
+
+/* --- Contact / Rating Form (Bagian Kanan/Bawah) --- */
+.contact {
+    background: #fff;
+    padding: 2em;
+}
+
+.contact h3 {
+    color: #00B7F1;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* --- Form Styling --- */
+#contact-form {
+    display: grid;
+    grid-template-columns: 1fr; /* Default 1 kolom di HP */
+    grid-gap: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Input Fields */
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners input */
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: all 0.3s;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #00B7F1; /* Biru saat aktif */
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 183, 241, 0.1);
+}
+
+#contact-form textarea {
+    resize: vertical; /* User hanya bisa resize ke bawah */
+}
+
+/* Tombol Submit */
+#contact-form button {
+    background: #8CC63F; /* Warna Hijau CurhatKuy */
+    border: 0;
+    color: #fff;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px; /* Tombol Pill */
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+#contact-form button:hover {
+    background: #7ab332; /* Hijau lebih tua saat hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(140, 198, 63, 0.3);
+}
+
+/* --- Responsive Layout (Desktop/Tablet) --- */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* Kiri 1 bagian, Kanan 2 bagian */
+    }
+
+    .company-info {
+        text-align: left;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .company-info h3,
+    .company-info ul {
+        text-align: left;
+    }
+
+    .contact h3 {
+        text-align: left;
+    }
+
+    /* Grid Form menjadi 2 kolom di layar besar */
+    #contact-form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Elemen yang memanjang penuh (Message & Button) */
+    .full {
+        grid-column: 1 / 3;
+    }
+    
+    #contact-form button {
+        width: auto; /* Tombol tidak full width di desktop */
+        min-width: 200px;
+    }
+}
