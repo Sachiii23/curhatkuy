@@ -34,13 +34,12 @@
                 <a href="<?php echo base_url('index3/index') ?>" class="nav-item nav-link">Home</a>
                 <a href="<?php echo base_url('index3/about') ?>" class="nav-item nav-link">About Us</a>
                 <!-- <a href="<?php echo base_url('index3/payment')?>" class="nav-item nav-link">Psikolog</a> -->
-                <a href="<?php echo base_url('index3/psikolog')?>" class="nav-item nav-link">Psikolog</a>
                 <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Konsultasikan Sekarang</a>
                 <div class="dropdown-menu dropdown-menu-custom m-0 shadow-sm border-0">
-                    <a href="<?php echo base_url('paket/kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
-                    <a href="<?php echo base_url('paket/coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
-                    <a href="<?php echo base_url('paket/paketCurhat') ?>" class="dropdown-item">Paket Curhat</a>
+                    <a href="<?php echo base_url('kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
+                    <a href="<?php echo base_url('coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
+                    <a href="<?php echo base_url('paketCurhat') ?>" class="dropdown-item">Paket Curhat</a>
                 </div>
         </div>
     <a href="<?php echo base_url('login/logout')?>" class="nav-item nav-link">Logout</a>
@@ -197,18 +196,8 @@
         let selectedDate = null;
         let selectedTime = null;
 
-        // DATA DUMMY KETERSEDIAAN (Sesuaikan dengan data PHP Anda)
-        // Format kunci: YYYY-MM-DD
-        const availabilityData = {
-            '2025-12-05': ['10:00', '12:00', '14:00', '16:00'], // Tanggal Aktif default (seperti di gambar)
-            '2025-12-09': ['10:00', '14:00'],
-            '2025-12-10': ['10.00'],
-            '2025-12-12': ['12:00', '16:00'],
-            '2025-12-16': ['10:00', '14:00', '16:00'],
-            '2025-12-23': ['09:00', '11:00', '13:00'],
-            '2025-12-31': ['10:00'],
-            // Tambahkan data ketersediaan psikolog lainnya di sini
-        };
+        // Schedule availability
+        const availabilityData = <?= $availabilityData ?>;
         
         function renderCalendar() {
             // Hapus semua baris yang sudah ada

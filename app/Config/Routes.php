@@ -45,6 +45,7 @@ $routes->get('/coupleCurhat', 'PsikologController::coupleCurhat');
 $routes->get('/kuyCurhat', 'PsikologController::kuyCurhat');
 $routes->get('/paketCurhat', 'PsikologController::paketCurhat');
 
-
+// Routes untuk penjadwalan
+$routes->get('schedule/(:num)', 'Schedule::index/$1', ['filter' => 'auth']);
 
 

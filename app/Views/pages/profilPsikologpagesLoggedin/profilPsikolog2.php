@@ -15,14 +15,14 @@
      <link href="<?php echo base_url('css/style.css'); ?>" rel="stylesheet">
 </head>
 <body>
-
+    
     <!-- Navbar Starts -->
     <div class="container-fluid sticky-top bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
                 <a href="#" class="navbar-brand">
                     <h1 class="m-0  text-primary d-flex align-items-center">
-                        <img src="../img/logoMe.png" alt="clinic-icon" class="clinic-icon" style="width: 100px; height: 100px;"> Hello, <?= session()->get('nama_lengkap') ?> !
+                        <img src="<?php echo base_url('img/logoMe.png'); ?>" alt="clinic-icon" class="clinic-icon" style="width: 100px; height: 100px;"> Hello, <?= session()->get('nama_lengkap') ?> !
                     </h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -31,13 +31,12 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="<?php echo base_url('index3/index') ?>" class="nav-item nav-link">Home</a>
                     <a href="<?php echo base_url('index3/about') ?>" class="nav-item nav-link">About Us</a>
-                    <a href="#" class="nav-item nav-link active">Psikolog</a>
                         <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Konsultasikan Sekarang</a>
                                 <div class="dropdown-menu dropdown-menu-custom m-0 shadow-sm border-0">
-                                    <a href="<?php echo base_url('paket/kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
-                                    <a href="<?php echo base_url('paket/coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
-                                    <a href="<?php echo base_url('paket/paketCurhat') ?>" class="dropdown-item">Paket Curhat</a>
+                                    <a href="<?php echo base_url('kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
+                                    <a href="<?php echo base_url('coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
+                                    <a href="<?php echo base_url('paketCurhat') ?>" class="dropdown-item">Paket Curhat</a>
                                 </div>
                         </div>
                     <a href="<?php echo base_url('consult/history') ?>" class="nav-item nav-link">Riwayat Konsultasi</a>
@@ -47,7 +46,7 @@
         </div>
     </div>
     <!-- Navbar Ends -->
-    
+
     <div class="header-banner-wrapper">
     
     <div class="decoration-left">
@@ -66,7 +65,7 @@
         </svg>
     </div>
 </div>
-
+    
     <section class="profile-detail-section">
         <div class="container">
             
@@ -76,10 +75,10 @@
                     <div class="profile-header-wrapper">
                         <div class="dots-decoration"></div>
                         
-                        <img src="<?php echo base_url('img/psikologadel.png'); ?>" alt="Syachra Shafa Kamila" class="main-profile-img">
+                        <img src="<?php echo base_url('img/psiko-Sufyaan Gymnastiar.png'); ?>" alt="Syachra Shafa Kamila" class="main-profile-img">
                     </div>
 
-                    <h1 class="profile-name-large">Adellya Salsabila Sujatmoko</h1>
+                    <h1 class="profile-name-large">Sufyaan Gymnastiar</h1>
                     <p class="profile-title-large">Psikolog Klinis</p>
 
                 </div>

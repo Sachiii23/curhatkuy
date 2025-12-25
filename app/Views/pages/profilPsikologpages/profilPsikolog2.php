@@ -40,7 +40,6 @@
         </div>
     </div>
 
-    
     <div class="header-banner-wrapper">
     
     <div class="decoration-left">
@@ -59,7 +58,7 @@
         </svg>
     </div>
 </div>
-
+    
     <section class="profile-detail-section">
         <div class="container">
             
@@ -69,10 +68,10 @@
                     <div class="profile-header-wrapper">
                         <div class="dots-decoration"></div>
                         
-                        <img src="<?php echo base_url('img/psiko-Adelilya Salsabila Sujatmoko.png'); ?>" alt="Adellya Salsabila Sujatmoko" class="main-profile-img">
+                        <img src="<?php echo base_url('img/psiko-Sufyaan Gymnastiar.png'); ?>" alt="Sufyaan Gymnastiar.png" class="main-profile-img">
                     </div>
 
-                    <h1 class="profile-name-large">Adellya Salsabila Sujatmoko</h1>
+                    <h1 class="profile-name-large">Sufyaan Gymnastiar</h1>
                     <p class="profile-title-large">Psikolog Klinis</p>
 
                 </div>

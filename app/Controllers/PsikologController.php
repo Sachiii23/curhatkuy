@@ -57,4 +57,22 @@ class PsikologController extends BaseController
 
         return view('pages/paketPages/paketCurhat', $data);
     }
+
+    public function schedule($id_psikolog)
+{
+    $jadwalModel = new JadwalPsikologModel();
+    $jadwal = $jadwalModel->getAvailabilityByPsikolog($id_psikolog);
+
+    // Ubah ke format JS-friendly
+    $availability = [];
+
+    foreach ($jadwal as $row) {
+        $availability[$row['tanggal']][] = substr($row['jam_mulai'], 0, 5);
+    }
+
+    return view('scheduleLoggedin', [
+        'availabilityData' => json_encode($availability),
+        'id_psikolog'       => $id_psikolog
+    ]);
+}
 }
