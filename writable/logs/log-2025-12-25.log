@@ -1,0 +1,22 @@
+CRITICAL - 2025-12-25 20:18:17 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-12-25 20:18:21 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(12.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(12.0, 2)
+#2 C:\xampp\htdocs\curhatkuy\app\Views\errors\html\error_exception.php(390): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(12582912)
+#3 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\curhatkuy\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\curhatkuy\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
