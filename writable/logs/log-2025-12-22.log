@@ -1,0 +1,725 @@
+INFO - 2025-12-22 01:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 01:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 01:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 01:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 01:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 01:32:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 01:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 01:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 01:59:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 01:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 01:59:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 01:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:10:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:11:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:11:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:11:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:12:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:12:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:16:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:16:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:20:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:27:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:27:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:27:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:30:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:31:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:32:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:32:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:32:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:32:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 02:35:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-22 02:37:18 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 20.
+ 1 APPPATH\Views\pages\paketPages\coupleCurhat.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\ci4curhatkuy-min\\app\\Views\\pages\\paketPages\\coupleCurhat.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4curhatkuy-min\\app\\Views\\pages\\paketPages\\coupleCurhat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 5 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 02:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 02:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 03:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 03:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 03:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 03:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:00:13 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 171.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-22 04:00:35 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:01:34 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:02:11 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:02:13 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:03:31 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:03:33 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:03:39 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:04:16 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:04:28 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:04:30 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 199.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:11:46 --> ParseError: syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 97.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 3 APPPATH\Controllers\PsikologController.php(29): view('pages/paketPages/coupleCurhat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\PsikologController->coupleCurhat()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PsikologController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:25:17 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 79.
+ 1 APPPATH\Views\pages\paketPages\coupleCurhat.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 5 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:25:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:25:41 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 79.
+ 1 APPPATH\Views\pages\paketPages\coupleCurhat.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 5 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:26:05 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\paketPages\coupleCurhat.php on line 79.
+ 1 APPPATH\Views\pages\paketPages\coupleCurhat.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4curhatkuy-dev\\app\\Views\\pages\\paketPages\\coupleCurhat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/coupleCurhat', [], true)
+ 5 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/coupleCurhat')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('coupleCurhat')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:28:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:33:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:33:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:34:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:34:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:34:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:36:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:46:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:47:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:47:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:47:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:48:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 04:48:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/paketPages/img.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/paketPages/img.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/paketPages/img', [], true)
+ 3 APPPATH\Controllers\Index3.php(26): view('pages/paketPages/img')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->paket('img', 'curhatkuy_logo_new.png')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-22 04:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 05:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 05:04:37 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-22 05:05:53 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-22 05:05:57 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-22 05:05:57 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-12-22 05:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 05:06:03 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-22 05:06:13 --> ErrorException: Cannot redeclare App\Controllers\PsikologController::kuyCurhat()
+in APPPATH\Controllers\PsikologController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-12-22 05:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 05:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 05:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 05:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
