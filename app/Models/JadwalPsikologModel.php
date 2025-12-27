@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Models;
 use CodeIgniter\Model;
 
@@ -18,7 +17,8 @@ class JadwalPsikologModel extends Model
           ->findAll();
     }
 
-    public function bookSlot($id_psikolog, $tanggal, $jam_mulai)
+    // 🔹 Booking (ANTI DOUBLE BOOKING)
+    public function bookSlot($id_jadwal)
     {
         return $this->where([
             'psikolog_id' => $id_psikolog,
