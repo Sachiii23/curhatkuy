@@ -46,6 +46,8 @@ $routes->get('/kuyCurhat', 'PsikologController::kuyCurhat');
 $routes->get('/paketCurhat', 'PsikologController::paketCurhat');
 
 // Routes untuk penjadwalan
-$routes->get('schedule/(:num)', 'Schedule::index/$1', ['filter' => 'auth']);
+$routes->get('schedule/(:num)', 'ScheduleController::index/$1');
+$routes->post('booking/book', 'BookingController::book', ['filter' => 'auth']);
 
-
+$routes->post('psikolog/jadwal/tambah', 'PsikologController::tambahJadwal', ['filter' => 'auth']);
+$routes->get('psikolog/jadwal/hapus/(:num)', 'PsikologController::hapusJadwal/$1', ['filter' => 'auth']);

@@ -17,10 +17,12 @@ class Login extends Controller
         $session = session();
         $model = new UserModel();
         $modelAdmin = new AdminModel();
+        $modelpsikolog = new PsikologModel();
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
         $data = $model->where('email', $email)->first();
         $admin = $modelAdmin->where('email', $email)->first();
+        $psikolog = $modelpsikolog->where('email', $email)->first();
         if($admin){
             $pass = $admin['password'];
             if($password == $pass){
@@ -31,7 +33,20 @@ class Login extends Controller
                 ];
                 $session->set($ses_data);
                 return redirect()->to(base_url('admin/index'));
-            }else{
+            }
+            elseif($psikolog){
+                $pass == $psikolog['password'];
+                if($password == $pass){
+                    $ses_data = [
+                        'nama_lengkap'      => $psikolog['nama'],
+                        'email'             => $psikolog['email'],
+                        'logged_in'         => TRUE
+                    ];
+                    $session->set($ses_data);
+                    return redirect()->to(base_url('psikolog/index'));
+                };   
+            }
+            else{
                 $session->setFlashdata('msg', 'Password yang anda masukan salah');
                 return redirect()->to(base_url('home/login'));
             }

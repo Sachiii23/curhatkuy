@@ -1,0 +1,593 @@
+INFO - 2025-12-27 01:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 01:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 01:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 01:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 01:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 02:59:20 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 20.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 02:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 02:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:08:02 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 20.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-27 03:08:04 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 20.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-27 03:08:06 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 20.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-27 03:08:08 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 20.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:10:30 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:15:55 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:17:10 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:17:22 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:46 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:56 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:56 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:57 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:57 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:57 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:57 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:57 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:58 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:58 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:58 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:58 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:58 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:59 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:59 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:59 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:59 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:51:59 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:52:16 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\pages\scheduleLoggedin.php on line 64.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:54:53 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 95.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 95)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 03:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:55:06 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 95.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 95)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:58:06 --> ErrorException: Undefined variable $layanan
+in APPPATH\Views\pages\scheduleLoggedin.php on line 100.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layanan', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 03:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 03:58:15 --> ErrorException: Undefined variable $layanan
+in APPPATH\Views\pages\scheduleLoggedin.php on line 100.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layanan', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:01:15 --> ErrorException: Undefined variable $availabilityData
+in APPPATH\Views\pages\scheduleLoggedin.php on line 139.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availabilityData', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 139)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:04:15 --> ErrorException: Undefined variable $id_psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 140.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 140)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:05:49 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:05:53 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:12:48 --> ErrorException: Undefined variable $nama_psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:13:03 --> ErrorException: Undefined variable $nama
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:13:25 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:33 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:34 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:34 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:34 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:34 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:14:48 --> ErrorException: Undefined variable $psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:17:02 --> ErrorException: Undefined variable $nama_psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:17:28 --> ErrorException: Undefined variable $nama_psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-27 04:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-27 04:17:46 --> ErrorException: Undefined variable $nama_psikolog
+in APPPATH\Views\pages\scheduleLoggedin.php on line 204.
+ 1 APPPATH\Views\pages\scheduleLoggedin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_psikolog', 'C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\curhatkuy\\app\\Views\\pages\\scheduleLoggedin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/scheduleLoggedin', [], true)
+ 5 APPPATH\Controllers\Index3.php(76): view('pages/scheduleLoggedin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Index3->schedule()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index3))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-27 04:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

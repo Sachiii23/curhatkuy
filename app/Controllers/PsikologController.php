@@ -3,7 +3,9 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\JadwalPsikologModel;
 use App\Models\PsikologModel;
+
 
 class PsikologController extends BaseController
 {
@@ -58,21 +60,24 @@ class PsikologController extends BaseController
         return view('pages/paketPages/paketCurhat', $data);
     }
 
-    public function schedule($id_psikolog)
+    public function schedule()
 {
+    $tanggal = date('Y-m-d'); // default hari ini
+    $psikologModel = new PsikologModel();
     $jadwalModel = new JadwalPsikologModel();
-    $jadwal = $jadwalModel->getAvailabilityByPsikolog($id_psikolog);
+    $jadwal = $jadwalModel->getAvailabilityByDate($tanggal);
 
-    // Ubah ke format JS-friendly
-    $availability = [];
+    // sementara hardcode psikolog_id = 1
+    $psikolog = $psikologModel->find(1);
 
-    foreach ($jadwal as $row) {
-        $availability[$row['tanggal']][] = substr($row['jam_mulai'], 0, 5);
-    }
+    $harga = $psikolog['harga'] ?? 0;
 
-    return view('scheduleLoggedin', [
-        'availabilityData' => json_encode($availability),
-        'id_psikolog'       => $id_psikolog
+    // ubah ke format JS
+    $availabilityData = json_encode($jadwal);
+
+    return view('pages/scheduleLoggedin', [
+        'harga' => $harga,
+        'availabilityData' => $availabilityData
     ]);
 }
 }
