@@ -11,6 +11,7 @@ $routes->get('/', 'Home::index');
 $routes->setAutoRoute(true);
 
 $routes->get('/admin', 'Admin::index');
+$routes->get('/psikolog', 'Psikolog::index');
 
 // Proxy endpoints to the Python chatbot so frontend can use same domain
 $routes->post('/chatproxy/status', 'ChatProxy::status');

@@ -11,6 +11,8 @@ class PsikologModel extends Model
 
     protected $allowedFields    = [
         'nama',
+        'email',
+        'password',
         'spesialisasi',
         'harga',
         'role'

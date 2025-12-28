@@ -1,3 +1,4 @@
+<?php
 namespace App\Controllers;
 
 use App\Models\JadwalPsikologModel;
@@ -7,6 +8,9 @@ class ScheduleController extends BaseController
 {
     public function index($id_psikolog)
     {
+        // tes dulu
+        // dd($id_psikolog);
+
         $psikologModel = new PsikologModel();
         $jadwalModel   = new JadwalPsikologModel();
 
@@ -24,7 +28,7 @@ class ScheduleController extends BaseController
         }
 
         return view('pages/scheduleLoggedin', [
-            'nama_psikolog' => $psikolog['nama'],
+            'psikolog' => $psikolog['nama'],
             'harga' => $psikolog['harga'],
             'layanan' => $psikolog['spesialisasi'],
             'availabilityData' => json_encode($availability),
@@ -32,4 +36,4 @@ class ScheduleController extends BaseController
         ]);
     }
 }
-
+?>

@@ -88,7 +88,7 @@
                     </p>
                     <div class="action-buttons-wrapper">
                         <a href="<?php echo base_url('index3/profilPsikolog/'. $p['id_psikolog'] .''); ?>" class="btn-profile-action">Lihat profil</a>
-                        <a href="<?php echo base_url('index3/schedule'); ?>" class="btn-profile-blue">Konsultasi</a>
+                        <a href="<?= base_url('schedule/' . (int)$p['id_psikolog']) ?>" class="btn-profile-blue">Konsultasi</a>
                     </div>
                 </div>
             </div>

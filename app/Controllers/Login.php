@@ -3,6 +3,7 @@
 use CodeIgniter\Controller;
 use App\Models\UserModel;
 use App\Models\AdminModel;
+use App\Models\PsikologModel;
 
 class Login extends Controller
 {
@@ -34,23 +35,27 @@ class Login extends Controller
                 $session->set($ses_data);
                 return redirect()->to(base_url('admin/index'));
             }
-            elseif($psikolog){
-                $pass == $psikolog['password'];
-                if($password == $pass){
-                    $ses_data = [
+            else{
+                $session->setFlashdata('msg', 'Password yang anda masukan salah');
+                return redirect()->to(base_url('home/login'));
+            };
+            }
+        
+        if($psikolog){
+            $pass = $psikolog['password'];
+            if($password == $pass){
+                $ses_data = [
                         'nama_lengkap'      => $psikolog['nama'],
                         'email'             => $psikolog['email'],
                         'logged_in'         => TRUE
                     ];
                     $session->set($ses_data);
                     return redirect()->to(base_url('psikolog/index'));
-                };   
-            }
-            else{
+                }else{
                 $session->setFlashdata('msg', 'Password yang anda masukan salah');
                 return redirect()->to(base_url('home/login'));
-            }
-        }
+            };  
+            };
         if($data){
             $pass = $data['password'];
             if($password == $pass){

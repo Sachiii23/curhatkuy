@@ -15,14 +15,7 @@
     <link href="<?= base_url('css/psikolog.css') ?>" rel="stylesheet">
 </head>
 <body>
-    <?php
-    dd(
-    isset($nama_psikolog),
-    isset($harga),
-    isset($layanan),
-    isset($availabilityData)
-    );
-    ?>
+
     <div class="container-fluid sticky-top bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
@@ -39,13 +32,12 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="<?= base_url('index3/index') ?>" class="nav-item nav-link">Home</a>
                         <a href="<?= base_url('index3/about') ?>" class="nav-item nav-link">About Us</a>
-                        <a href="<?= base_url('index3/psikolog')?>" class="nav-item nav-link">Psikolog</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Konsultasikan Sekarang</a>
                             <div class="dropdown-menu dropdown-menu-custom m-0 shadow-sm border-0">
-                                <a href="<?= base_url('paket/kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
-                                <a href="<?= base_url('paket/coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
-                                <a href="<?= base_url('paket/paketCurhat') ?>" class="dropdown-item">Family Curhat</a>
+                                <a href="<?= base_url('kuyCurhat') ?>" class="dropdown-item">Kuy Curhat</a>
+                                <a href="<?= base_url('coupleCurhat') ?>" class="dropdown-item">Couple Curhat</a>
+                                <a href="<?= base_url('paketCurhat') ?>" class="dropdown-item">Family Curhat</a>
                             </div>
                         </div>
                         <a href="<?= base_url('login/logout')?>" class="nav-item nav-link">Logout</a>
@@ -68,7 +60,7 @@
                     <span class="label">Select a Date and Time</span>
                     <span class="timezone">Coordinated Universal Time (UTC)</span>
                     
-                    <p class="service-price">Harga: <strong>Rp <?= isset($harga) ? number_format($harga, 0, ',', '.') : '-' ?> </strong></p>
+                    <p class="service-price">Harga: <strong>Rp <?= number_format($harga, 0, ',', '.') ?></strong></p>
 
                     <div class="calendar-and-time">
                         <div class="calendar-box">
@@ -99,13 +91,13 @@
 
                 <div class="service-details-row">
                     <div class="service-details-box">
-                        <span class="psikolog-name" id="display-nama-psikolog"><?= isset($nama_psikolog) ? $nama_psikolog : '-' ?></span>
+                        <span class="psikolog-name" id="display-nama-psikolog"><?= $psikolog ?></span>
                         <a href="javascript:void(0)" class="more-details-link" id="toggleDetails">
                             More details <span class="arrow-down">▼</span>
                         </a>
                         <div id="detailsContent" style="display: none; padding-top: 10px; font-size: 14px; color: #555;">
-                            <p><strong>Layanan:</strong><?= isset($layanan) ? $layanan : '-' ?></p>
-                            <p>Sesi ini bersama <strong><?= isset($nama_psikolog) ? $nama_psikolog : '-' ?></strong> akan berlangsung selama 60 menit melalui platform video conference.</p>
+                            <p><strong>Layanan:</strong> <?= $layanan ?></p>
+                            <p>Sesi ini bersama <strong><?= $psikolog ?></strong> akan berlangsung selama 60 menit melalui platform video conference.</p>
                         </div>
                     </div>
                 </div>
@@ -142,9 +134,9 @@
         const availabilityHeader = document.getElementById('availabilityHeader');
         const lanjutButton = document.getElementById('lanjutButton');
 
-        // Data dummy availability (Bisa disesuaikan)
-        const availabilityData = <?= $availabilityData ?? '{}' ?>; 
-        const idPsikolog = <?= $id_psikolog ?? 'null' ?>;
+        // Data database availability (Bisa disesuaikan)
+        const availabilityData = <?= $availabilityData ?>;
+        const idPsikolog = <?= $id_psikolog ?>;
 
         function renderCalendar() {
             calendarBody.innerHTML = ''; 
@@ -195,12 +187,12 @@
                 btn.textContent = slot.jam + ' WIB';
 
                 btn.onclick = () => {
-                selectedSlotId = slot.id_jadwal;
-                selectedTime = slot.jam;
-                .disabled = false;
-            };
+                    selectedSlotId = slot.id_jadwal;
+                    selectedTime = slot.jam;
+                    lanjutButton.disabled = false;
+                };
 
-            slotsContainer.appendChild(btn);
+                slotsContainer.appendChild(btn);
             });
         }
 
@@ -208,10 +200,9 @@
         lanjutButton.addEventListener('click', () => {
             if (selectedDate && selectedTime) {
                 // Mengambil data PHP ke JavaScript
-                const namaPsikolog  = "<?= esc($nama_psikolog ?? '') ?>";
-                const hargaPsikolog = "<?= esc($harga ?? 0) ?>";
-                const layananPaket  = "<?= esc($layanan ?? '') ?>";
-
+                const namaPsikolog = "<?= $psikolog ?>";
+                const hargaPsikolog = "<?= $harga ?>";
+                const layananPaket = "<?= $layanan ?>";
                 const tglBooking = selectedDate.format('YYYY-MM-DD');
 
                 const checkoutUrl = `<?= base_url('index3/payment') ?>` + 
